@@ -1,0 +1,28 @@
+/* gizmo-colour.css */
+.gz-blue, .gz-hover-blue:hover {color: #ffffff!important;background-color: #0074d9!important}
+.gz-border-blue, .gz-hover-border-blue:hover {border-color: #0074d9!important}
+.gz-text-blue, .gz-hover-text-blue:hover {color: #0074d9!important}
+
+.gz-green, .gz-hover-green:hover {color: #ffffff!important;background-color: #2ecc40!important}
+.gz-border-green, .gz-hover-border-green:hover {border-color: #2ecc40!important}
+.gz-text-green, .gz-hover-text-green:hover {color: #2ecc40!important}
+
+.gz-orange, .gz-hover-orange:hover {color: #ffffff!important;background-color: #ff851b!important}
+.gz-border-orange, .gz-hover-border-orange:hover {border-color: #ff851b!important}
+.gz-text-orange, .gz-hover-text-orange:hover {color: #ff851b!important}
+
+.gz-red, .gz-hover-red:hover {color: #ffffff!important;background-color: #ff4136!important}
+.gz-border-red, .gz-hover-border-red:hover {border-color: #ff4136!important}
+.gz-text-red, .gz-hover-text-red:hover {color: #ff4136!important}
+
+.gz-grey, .gz-hover-white:hover {color: #111111!important;background-color: #aaaaaa!important}
+.gz-border-grey, .gz-hover-border-grey:hover {border-color: #aaaaaa!important}
+.gz-text-grey, .gz-hover-text-grey:hover {color: #aaaaaa!important}
+
+.gz-black, .gz-hover-black:hover {color: #ffffff!important;background-color: #111111!important}
+.gz-border-black, .gz-hover-border-black:hover {border-color: #111111!important}
+.gz-text-black, .gz-hover-text-black:hover {color: #111111!important}
+
+.gz-white, .gz-hover-white:hover {color: #111111!important;background-color: #ffffff!important}
+.gz-border-white, .gz-hover-border-white:hover {border-color: #ffffff!important}
+.gz-text-white, .gz-hover-text-white:hover {color: #ffffff!important}

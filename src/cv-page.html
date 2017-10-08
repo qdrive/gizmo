@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>gizmo-cv-page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- begin: css -->
+  <link href="assets/css/gizmo-core.css" rel="stylesheet">
+  <link href="assets/css/gizmo-animate.css" rel="stylesheet">
+  <link href="assets/css/gizmo-colour.css" rel="stylesheet">
+  <link href="assets/css/gizmo-core.css" rel="stylesheet">
+  <link href="assets/css/gizmo-responsive.css" rel="stylesheet">
+  <link href="assets/css/theme/gizmo-blue.css" rel="stylesheet">
+  <link href="assets/css/app.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
+  <!-- end: css -->
+</head>
+
+<body>
+  <!-- begin: wrapper -->
+  <div id="gz-wrapper">
+    <!-- begin containers -->
+    <div id="navbar-container">
+      <!-- begin: navbar-content -->
+      <div id="navbar-content" class="gz-top">
+        <!-- begin: large-navbar-content -->
+        <div id="large-navbar-content">
+          <div class="gz-bar gz-theme-6 gz-card-x2 gz-left-align gz-font-x3">
+            <a class="gz-bar-item gz-button gz-hide-x2 gz-hide-x3 gz-right gz-padding-x3 gz-hover-theme gz-font-x3" href="javascript:void(0);"
+              title="Toggle Navigation Menu" onclick="toggleNav()"><i class="fa fa-fw fa-bars"></i></a>
+            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#">gz-demo</a>
+            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#"><i class="fa fa-fw fa-info"></i></a>
+            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#"><i class="fa fa-fw fa-envelope"></i></a>
+            <a class="gz-bar-item gz-button gz-hide-x1 gz-padding-x3 gz-hover-theme gz-font-x3 gz-right" href="#"><i class="fa fa-fw fa-user"></i></a>
+            <div class="gz-dropdown-hover gz-hide-x1">
+              <a class="gz-button gz-hover-theme gz-padding-x3"><i class="fa fa-fw fa-pencil gz-margin-right"></i>Dropdown<i class="fa fa-fw fa-caret-down"></i></a>
+              <div class="gz-dropdown-content gz-bar-block gz-card-x2">
+                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
+                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
+                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end: large-navbar-content -->
+        <!-- begin: small-navbar-content -->
+        <div id="small-navbar-content">
+          <div class="gz-bar-block gz-theme-10 gz-hide gz-hide-x3 gz-hide-x2 gz-font-x3" id="navbar">
+            <div class="gz-dropdown-hover">
+              <a class="gz-button gz-hover-theme gz-padding-x3">Dropdown<i class="fa fa-fw fa-caret-down"></i></a>
+              <div class="gz-dropdown-content gz-bar-block gz-card-x2">
+                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
+                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
+                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end: small-navbar-content -->
+      </div>
+      <!-- end: navbar-content -->
+    </div>
+    <div id="view-container">
+      <!-- begin: view-content -->
+      <div id="view-content">
+        <!-- begin: content -->
+        <div id="content">
+          <!-- begin: cv-content -->
+          <div id="cv-content" class="gz-content">
+            <div class="gz-row">
+              <div class="gz-row-padding gz-padding-x6 gz-container">
+                <!-- begin: left-content -->
+                <div class="gz-col m3">
+                  <div class="gz-panel gz-card-x2 gz-round-x2 gz-white">
+                    <!-- begin: user-summary-content -->
+                    <div id="user-summary-content">
+                      <div class="gz-display-container">
+                        <img src="assets/img/jane-doe-1.jpg" class="gz-margin-top gz-round-x2 gz-border-theme gz-animate-opacity" style="width:100%"
+                          alt="profile"></img>
+                      </div>
+                    </div>
+                    <!-- end: user-summary-content -->
+                    <!-- begin: user-profile-content -->
+                    <div id="user-profile-content">
+                      <div class="gz-container gz-margin-top gz-margin-bottom">
+                        <h2>Jane Doe</h2>
+                        <ul class="gz-ul">
+                          <li><i class="fa fa-briefcase fa-fw gz-margin-right gz-font-x5 gz-text-theme"></i>Developer</li>
+                          <li><i class="fa fa-home fa-fw gz-margin-right gz-font-x5 gz-text-theme"></i>Leeds, UK</li>
+                          <li><i class="fa fa-envelope fa-fw gz-margin-right gz-font-x5 gz-text-theme"></i>some.email@web.com</li>
+                          <li><i class="fa fa-phone fa-fw gz-margin-right gz-font-x5 gz-text-theme"></i>01234 123456</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- end: user-profile-content -->
+                    <!-- begin: user-skill-content -->
+                    <div id="user-skill-content">
+                      <div class="gz-container gz-margin-top gz-margin-bottom">
+                        <h2>Skills</h2>
+                        <ul class="gz-ul">
+                          <li>
+                            C#
+                            <div class="gz-theme-2 gz-round-x4 gz-small">
+                              <div class="gz-container gz-center gz-round-x4 gz-theme" style="width:90%">90%</div>
+                            </div>
+                          </li>
+                          <li>
+                            NodeJS
+                            <div class="gz-theme-2 gz-round-x4 gz-small">
+                              <div class="gz-container gz-center gz-round-x4 gz-theme" style="width:75%">75%</div>
+                            </div>
+                          </li>
+                          <li>
+                            HTML5
+                            <div class="gz-theme-2 gz-round-x4 gz-small">
+                              <div class="gz-container gz-center gz-round-x4 gz-theme" style="width:85%">85%</div>
+                            </div>
+                          </li>
+                          <li>
+                            Asp.Net
+                            <div class="gz-theme-2 gz-round-x4 gz-small">
+                              <div class="gz-container gz-center gz-round-x4 gz-theme" style="width:90%">90%</div>
+                            </div>
+                          </li>
+                          <li>
+                            SQL
+                            <div class="gz-theme-2 gz-round-x4 gz-small">
+                              <div class="gz-container gz-center gz-round-x4 gz-theme" style="width:60%">60%</div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- end: user-skill-content -->
+                  </div>
+                </div>
+                <!-- end: left-content -->
+                <!-- begin: right-content -->
+                <div class="gz-col m9">
+                  <div class="gz-panel gz-card-x2 gz-round-x2 gz-white">
+                    <!-- begin: user-experience-content -->
+                    <div id="user-experience-content">
+                      <h2 class="gz-text-grey gz-padding-x5"><i class="fa fa-suitcase fa-fw gz-margin-right gz-x3 gz-text-theme"></i>Work Experience</h2>
+                      <div class="gz-container gz-margin-top gz-margin-bottom">
+                        <ul class="gz-ul">
+                          <h5 class="gz-opacity"><b>MVC Developer | Acme Trading Limited</b></h5>
+                          <li class="gz-text-theme"><i class="fa fa-fw fa-calendar gz-margin-right gz-font-x5"></i>Jan 2017 - <span class="gz-tag gz-theme-6 gz-font-x2 gz-round-x2">Current</span></li>
+                          <p class="gz-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <hr/>
+                          <h5 class="gz-opacity"><b>Java Developer | Contoso University</b></h5>
+                          <li class="gz-text-theme"><i class="fa fa-fw fa-calendar gz-margin-right gz-font-x5"></i>Jan 2016 - Jan 2017</li>
+                          <p class="gz-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <hr/>
+                          <h5 class="gz-opacity"><b>Linux Sysadmin | Adventureworks</b></h5>
+                          <li class="gz-text-theme"><i class="fa fa-fw fa-calendar gz-margin-right gz-font-x5"></i>Jan 2015 - Jan 2016</li>
+                          <p class="gz-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <hr/>
+                          <h5 class="gz-opacity"><b>Application Support | Northwind Trading Limited</b></h5>
+                          <li class="gz-text-theme"><i class="fa fa-fw fa-calendar gz-margin-right gz-font-x5"></i>Jan 2014 - Jan 2015</li>
+                          <p class="gz-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <hr/>
+                          <h5 class="gz-opacity"><b>Desktop Support | Northwind Trading Limited</b></h5>
+                          <li class="gz-text-theme"><i class="fa fa-fw fa-calendar gz-margin-right gz-font-x5"></i>Jan 2013 - Jan 2014</li>
+                          <p class="gz-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <hr/>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- end: user-experience-content -->
+                  </div>
+                </div>
+                <!-- end: right-content -->
+              </div>
+            </div>
+          </div>
+          <!-- end: cv-content -->
+        </div>
+        <!-- end: content -->
+      </div>
+      <!-- end: view-content -->
+    </div>
+    <div id="footer-container">
+      <!-- begin: footer-content -->
+      <div id="footer-content">
+        <div class="gz-row gz-white">
+          <footer class="gz-container gz-padding-x6 gz-center gz-opacity">
+            <p>gizmo-cv-page</p>
+          </footer>
+        </div>
+      </div>
+      <!-- end: footer-content -->
+    </div>
+    <!-- end containers -->
+  </div>
+  <!-- end: wrapper -->
+  <!-- begin: js -->
+  <script>
+    function toggleNav() {
+      var x = document.getElementById("navbar");
+      if (x.className.indexOf("gz-show") == -1) {
+        x.className += " gz-show";
+      } else {
+        x.className = x.className.replace(" gz-show", "");
+      }
+    }
+  </script>
+  <!-- end: js -->
+</body>
+
+</html>
