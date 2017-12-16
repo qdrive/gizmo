@@ -2,7 +2,7 @@
 Just a super simple CSS framework!
 
 ## About
-This was developed out of an interest in responsive CSS design. The tutorials and references from ***[W3Schools](https://www.w3schools.com)*** provided a great source of inspiration. 
+This was developed out of an interest in responsive CSS design. The tutorials and references from *[W3Schools](https://www.w3schools.com)* provided a great source of inspiration. 
 
 ## Getting Started
 
