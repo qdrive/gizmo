@@ -6,13 +6,13 @@ This was developed out of an interest in responsive CSS design. The tutorials an
 
 ## Getting Started
 
-Update the [yarn packages](https://yarnpkg.com):
+Update the *[yarn packages](https://yarnpkg.com)*:
 
 ```
 $ yarn install
 ```
 
-Reference the ***gizmo.css*** and ***[FontAwesome](http://fontawesome.io)*** stylesheets.
+Reference the *gizmo.css* and *[FontAwesome](http://fontawesome.io)* stylesheets.
 
 ``` html
 <html>
