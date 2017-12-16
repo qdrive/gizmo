@@ -183,6 +183,10 @@ a{color:inherit}
 .gz-right-align{text-align:right!important}
 .gz-justify{text-align:justify!important}
 .gz-center{text-align:center!important}
+/* font-case */
+.gz-text-uc {text-transform: uppercase;}
+.gz-text-lc {text-transform: lowercase;}
+.gz-text-cap {text-transform: capitalize;}
 /* border */
 .gz-border-0{border:0!important}
 .gz-border{border:1px solid #cccccc!important}
