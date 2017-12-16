@@ -1,0 +1,8 @@
+{
+  "name": "gizmo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "font-awesome" :"4.7.0"
+  }
+}
