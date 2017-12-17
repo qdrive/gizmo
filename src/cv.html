@@ -2,9 +2,10 @@
 <html>
 
 <head>
-  <title>gizmo-cv-page</title>
+  <title>gizmo-cv</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- begin: css -->
   <link href="assets/css/gizmo-core.css" rel="stylesheet">
   <link href="assets/css/gizmo-animate.css" rel="stylesheet">
@@ -15,12 +16,14 @@
   <link href="assets/css/app.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
   <!-- end: css -->
+
 </head>
 
 <body>
   <!-- begin: wrapper -->
   <div id="gz-wrapper">
-    <!-- begin containers -->
+
+    <!-- begin: navbar-container -->
     <div id="navbar-container">
       <!-- begin: navbar-content -->
       <div id="navbar-content" class="gz-top">
@@ -28,17 +31,30 @@
         <div id="large-navbar-content">
           <div class="gz-bar gz-theme-6 gz-card-x2 gz-left-align gz-font-x3">
             <a class="gz-bar-item gz-button gz-hide-x2 gz-hide-x3 gz-right gz-padding-x3 gz-hover-theme gz-font-x3" href="javascript:void(0);"
-              title="Toggle Navigation Menu" onclick="toggleNav()"><i class="fa fa-fw fa-bars"></i></a>
+              title="Toggle Navigation Menu" onclick="toggleNav()">
+              <i class="fa fa-fw fa-bars"></i>
+            </a>
             <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#">gz-demo</a>
-            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#"><i class="fa fa-fw fa-info"></i></a>
-            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#"><i class="fa fa-fw fa-envelope"></i></a>
-            <a class="gz-bar-item gz-button gz-hide-x1 gz-padding-x3 gz-hover-theme gz-font-x3 gz-right" href="#"><i class="fa fa-fw fa-user"></i></a>
+            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#">
+              <i class="fa fa-fw fa-info"></i>
+            </a>
+            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#">
+              <i class="fa fa-fw fa-envelope"></i>
+            </a>
+            <a class="gz-bar-item gz-button gz-hide-x1 gz-padding-x3 gz-hover-theme gz-font-x3 gz-right" href="#">
+              <i class="fa fa-fw fa-user"></i>
+            </a>
             <div class="gz-dropdown-hover gz-hide-x1">
-              <a class="gz-button gz-hover-theme gz-padding-x3"><i class="fa fa-fw fa-pencil gz-margin-right"></i>Dropdown<i class="fa fa-fw fa-caret-down"></i></a>
+              <a class="gz-button gz-hover-theme gz-padding-x3">
+                <i class="fa fa-fw fa-pencil gz-margin-right"></i>Examples
+                <i class="fa fa-fw fa-caret-down"></i>
+              </a>
               <div class="gz-dropdown-content gz-bar-block gz-card-x2">
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
+                <a href="index.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Home Page</a>
+                <a href="blank.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Blank Page</a>
+                <a href="cv.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">CV</a>
+                <a href="login.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Login</a>
+                <a href="register.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Register</a>
               </div>
             </div>
           </div>
@@ -48,11 +64,15 @@
         <div id="small-navbar-content">
           <div class="gz-bar-block gz-theme-10 gz-hide gz-hide-x3 gz-hide-x2 gz-font-x3" id="navbar">
             <div class="gz-dropdown-hover">
-              <a class="gz-button gz-hover-theme gz-padding-x3">Dropdown<i class="fa fa-fw fa-caret-down"></i></a>
+              <a class="gz-button gz-hover-theme gz-padding-x3">Examples
+                <i class="fa fa-fw fa-caret-down"></i>
+              </a>
               <div class="gz-dropdown-content gz-bar-block gz-card-x2">
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
+                <a href="index.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Home Page</a>
+                <a href="blank.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Blank Page</a>
+                <a href="cv.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">CV</a>
+                <a href="login.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Login</a>
+                <a href="register.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Register</a>
               </div>
             </div>
           </div>
@@ -61,6 +81,9 @@
       </div>
       <!-- end: navbar-content -->
     </div>
+    <!-- end: navbar-container -->
+
+    <!-- begin: view-container -->
     <div id="view-container">
       <!-- begin: view-content -->
       <div id="view-content">
@@ -200,20 +223,24 @@
       </div>
       <!-- end: view-content -->
     </div>
+    <!-- end: view-container -->
+
+    <!-- begin: footer-container -->
     <div id="footer-container">
       <!-- begin: footer-content -->
       <div id="footer-content">
         <div class="gz-row gz-white">
           <footer class="gz-container gz-padding-x6 gz-center gz-opacity">
-            <p>gizmo-cv-page</p>
+            <p>gizmo-cv</p>
           </footer>
         </div>
       </div>
       <!-- end: footer-content -->
     </div>
-    <!-- end containers -->
+    <!-- end: footer-container -->
   </div>
   <!-- end: wrapper -->
+
   <!-- begin: js -->
   <script>
     function toggleNav() {
@@ -226,6 +253,7 @@
     }
   </script>
   <!-- end: js -->
+  
 </body>
 
 </html>

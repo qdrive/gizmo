@@ -2,9 +2,10 @@
 <html>
 
 <head>
-  <title>gizmo-start-page</title>
+  <title>gizmo-home</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- begin: css -->
   <link href="assets/css/gizmo-core.css" rel="stylesheet">
   <link href="assets/css/gizmo-animate.css" rel="stylesheet">
@@ -15,12 +16,14 @@
   <link href="assets/css/app.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
   <!-- end: css -->
+
 </head>
 
 <body>
   <!-- begin: wrapper -->
   <div id="gz-wrapper">
-    <!-- begin containers -->
+
+    <!-- begin: navbar-container -->
     <div id="navbar-container">
       <!-- begin: navbar-content -->
       <div id="navbar-content" class="gz-top">
@@ -34,11 +37,13 @@
             <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#"><i class="fa fa-fw fa-envelope"></i></a>
             <a class="gz-bar-item gz-button gz-hide-x1 gz-padding-x3 gz-hover-theme gz-font-x3 gz-right" href="#"><i class="fa fa-fw fa-user"></i></a>
             <div class="gz-dropdown-hover gz-hide-x1">
-              <a class="gz-button gz-hover-theme gz-padding-x3"><i class="fa fa-fw fa-pencil gz-margin-right"></i>Dropdown<i class="fa fa-fw fa-caret-down"></i></a>
+              <a class="gz-button gz-hover-theme gz-padding-x3"><i class="fa fa-fw fa-pencil gz-margin-right"></i>Examples<i class="fa fa-fw fa-caret-down"></i></a>
               <div class="gz-dropdown-content gz-bar-block gz-card-x2">
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
+                <a href="index.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Home Page</a>
+                <a href="blank.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Blank Page</a>
+                <a href="cv.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">CV</a>
+                <a href="login.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Login</a>
+                <a href="register.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Register</a>
               </div>
             </div>
           </div>
@@ -48,11 +53,13 @@
         <div id="small-navbar-content">
           <div class="gz-bar-block gz-theme-10 gz-hide gz-hide-x3 gz-hide-x2 gz-font-x3" id="navbar">
             <div class="gz-dropdown-hover">
-              <a class="gz-button gz-hover-theme gz-padding-x3">Dropdown<i class="fa fa-fw fa-caret-down"></i></a>
+              <a class="gz-button gz-hover-theme gz-padding-x3">Examples<i class="fa fa-fw fa-caret-down"></i></a>
               <div class="gz-dropdown-content gz-bar-block gz-card-x2">
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
-                <a href="#" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Some Link</a>
+                  <a href="index.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Home Page</a>
+                  <a href="blank.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Blank Page</a>
+                  <a href="cv.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">CV</a>
+                  <a href="login.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Login</a>
+                  <a href="register.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Register</a>
               </div>
             </div>
           </div>
@@ -61,6 +68,9 @@
       </div>
       <!-- end: navbar-content -->
     </div>
+    <!-- end: navbar-container -->
+
+    <!-- begin: view-container -->
     <div id="view-container">
       <!-- begin: view-content -->
       <div id="view-content">
@@ -70,7 +80,7 @@
           <div id="header-content">
             <header class="gz-container gz-theme-8 gz-center" style="padding:128px 64px;">
               <h1 id="view-title" class="gz-font-x6 gz-animate-top">Greetings Humanz</h1>
-              <p class="gz-font-x3 gz-opacity">gizmo-start-page</p>
+              <p class="gz-font-x3 gz-opacity">gizmo-home</p>
             </header>
           </div>
           <!-- end: header-content -->
@@ -169,20 +179,25 @@
       </div>
       <!-- end: view-content -->
     </div>
+    <!-- end: view-container -->
+
+    <!-- begin: footer-container -->
     <div id="footer-container">
       <!-- begin: footer-content -->
       <div id="footer-content">
         <div class="gz-row gz-white">
           <footer class="gz-container gz-padding-x6 gz-center gz-opacity">
-            <p>gizmo-start-page</p>
+            <p>gizmo-start</p>
           </footer>
         </div>
       </div>
       <!-- end: footer-content -->
     </div>
-    <!-- end containers -->
+    <!-- end: footer-container -->
+
   </div>
   <!-- end: wrapper -->
+
   <!-- begin: js -->
   <script>
     function toggleNav() {
@@ -195,6 +210,7 @@
     }
   </script>
   <!-- end: js -->
+
 </body>
 
 </html>

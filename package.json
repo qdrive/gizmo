@@ -2,7 +2,13 @@
   "name": "gizmo",
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "dev": "lite-server"
+  },
   "dependencies": {
-    "font-awesome" :"4.7.0"
+    "font-awesome": "4.7.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
   }
 }
