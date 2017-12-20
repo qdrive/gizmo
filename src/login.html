@@ -2,9 +2,10 @@
 <html>
 
 <head>
-  <title>gizmo-login</title>
+  <title>gizmo</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- begin: css -->
   <link href="assets/css/gizmo-core.css" rel="stylesheet">
   <link href="assets/css/gizmo-animate.css" rel="stylesheet">
@@ -15,6 +16,7 @@
   <link href="assets/css/app.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
   <!-- end: css -->
+
 </head>
 
 <body>
@@ -29,30 +31,19 @@
         <div id="large-navbar-content">
           <div class="gz-bar gz-theme-6 gz-card-x2 gz-left-align gz-font-x3">
             <a class="gz-bar-item gz-button gz-hide-x2 gz-hide-x3 gz-right gz-padding-x3 gz-hover-theme gz-font-x3" href="javascript:void(0);"
-              title="Toggle Navigation Menu" onclick="toggleNav()">
-              <i class="fa fa-fw fa-bars"></i>
-            </a>
+              title="Toggle Navigation Menu" onclick="toggleNav()"><i class="fa fa-fw fa-bars"></i></a>
             <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#">gz-demo</a>
-            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#">
-              <i class="fa fa-fw fa-info"></i>
-            </a>
-            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#">
-              <i class="fa fa-fw fa-envelope"></i>
-            </a>
-            <a class="gz-bar-item gz-button gz-hide-x1 gz-padding-x3 gz-hover-theme gz-font-x3 gz-right" href="#">
-              <i class="fa fa-fw fa-user"></i>
-            </a>
+            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#"><i class="fa fa-fw fa-info"></i></a>
+            <a class="gz-bar-item gz-button gz-padding-x3 gz-hover-theme gz-font-x3" href="#"><i class="fa fa-fw fa-envelope"></i></a>
+            <a class="gz-bar-item gz-button gz-hide-x1 gz-padding-x3 gz-hover-theme gz-font-x3 gz-right" href="#"><i class="fa fa-fw fa-user"></i></a>
             <div class="gz-dropdown-hover gz-hide-x1">
-              <a class="gz-button gz-hover-theme gz-padding-x3">
-                <i class="fa fa-fw fa-pencil gz-margin-right"></i>Examples
-                <i class="fa fa-fw fa-caret-down"></i>
-              </a>
-              <div class="gz-dropdown-content gz-bar-block gz-card-x2">
-                <a href="index.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Home Page</a>
-                <a href="blank.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Blank Page</a>
-                <a href="cv.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">CV</a>
-                <a href="login.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Login</a>
-                <a href="register.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Register</a>
+              <a class="gz-button gz-hover-theme gz-padding-x3"><i class="fa fa-fw fa-pencil gz-margin-right"></i>Examples<i class="fa fa-fw fa-caret-down"></i></a>
+              <div class="gz-dropdown-content gz-nav-dropdown-round gz-padding-x1 gz-bar-block gz-card-x2">
+                <a href="index.html" class="gz-bar-item gz-round-x2 gz-button gz-hover-theme gz-font-x3"><i class="fa fa-fw fa-caret-right gz-margin-right"></i>Home Page</a>
+                <a href="blank.html" class="gz-bar-item gz-round-x2 gz-button gz-hover-theme gz-font-x3"><i class="fa fa-fw fa-caret-right gz-margin-right"></i>Blank Page</a>
+                <a href="cv.html" class="gz-bar-item gz-round-x2 gz-button gz-hover-theme gz-font-x3"><i class="fa fa-fw fa-caret-right gz-margin-right"></i>CV</a>
+                <a href="login.html" class="gz-bar-item gz-round-x2 gz-button gz-hover-theme gz-font-x3"><i class="fa fa-fw fa-caret-right gz-margin-right"></i>Login</a>
+                <a href="register.html" class="gz-bar-item gz-round-x2 gz-button gz-hover-theme gz-font-x3"><i class="fa fa-fw fa-caret-right gz-margin-right"></i>Register</a>
               </div>
             </div>
           </div>
@@ -62,15 +53,13 @@
         <div id="small-navbar-content">
           <div class="gz-bar-block gz-theme-10 gz-hide gz-hide-x3 gz-hide-x2 gz-font-x3" id="navbar">
             <div class="gz-dropdown-hover">
-              <a class="gz-button gz-hover-theme gz-padding-x3">Examples
-                <i class="fa fa-fw fa-caret-down"></i>
-              </a>
+              <a class="gz-button gz-hover-theme gz-padding-x3">Examples<i class="fa fa-fw fa-caret-down"></i></a>
               <div class="gz-dropdown-content gz-bar-block gz-card-x2">
-                <a href="index.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Home Page</a>
-                <a href="blank.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Blank Page</a>
-                <a href="cv.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">CV</a>
-                <a href="login.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Login</a>
-                <a href="register.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3">Register</a>
+                  <a href="index.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3"><i class="fa fa-fw fa-caret-right gz-margin-right"></i>Home Page</a>
+                  <a href="blank.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3"><i class="fa fa-fw fa-caret-right gz-margin-right"></i>Blank Page</a>
+                  <a href="cv.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3"><i class="fa fa-fw fa-caret-right gz-margin-right"></i>CV</a>
+                  <a href="login.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3"><i class="fa fa-fw fa-caret-right gz-margin-right"></i>Login</a>
+                  <a href="register.html" class="gz-bar-item gz-button gz-hover-theme gz-font-x3"><i class="fa fa-fw fa-caret-right gz-margin-right"></i>Register</a>
               </div>
             </div>
           </div>

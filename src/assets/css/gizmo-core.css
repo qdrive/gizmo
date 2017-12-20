@@ -92,6 +92,7 @@ a{color:inherit}
 .gz-dropdown-hover:first-child, .gz-dropdown-click:hover{background-color:#cccccc;color:#000000}
 .gz-dropdown-hover:hover > .gz-button:first-child, .gz-dropdown-click:hover > .gz-button:first-child{background-color:#cccccc;color:#000000}
 .gz-dropdown-content{cursor:auto;color:#000000;background-color:#ffffff;display:none;position:absolute;min-width:200px;max-width:300px;margin:0;padding:0}
+.gz-nav-dropdown-round{border-bottom-left-radius: 4px 4px;border-bottom-right-radius: 4px 4px;border-top-right-radius: 4px 4px;}
 /* sidebar */
 .gz-sidebar{height:100%;width:200px;background-color:#ffffff;position:fixed!important;z-index:1;overflow:auto}
 /* wrapper */

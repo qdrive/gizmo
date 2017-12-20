@@ -63,3 +63,6 @@
 .gz-hover-border-info:hover {border-color: #48a6c0!important}
 .gz-text-info {color: #5bc0de!important}
 .gz-hover-text-info:hover {color: #48a6c0!important}
+
+.gz-dropdown-hover:first-child, .gz-dropdown-click:hover{background-color:#5c1e19;color:#fff}
+.gz-dropdown-hover:hover > .gz-button:first-child, .gz-dropdown-click:hover > .gz-button:first-child{background-color:#5c1e19;color:#fff}
